@@ -1,0 +1,155 @@
+<web-app>
+
+  <servlet>
+    <servlet-name>s1</servlet-name>
+    <servlet-class>org.example.CookiesInServlet.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>s1</servlet-name>
+    <url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>s2</servlet-name>
+    <servlet-class>org.example.CookiesInServlet.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>s2</servlet-name>
+    <url-pattern>/servlet2</url-pattern>
+  </servlet-mapping>
+
+
+    <servlet>
+      <description></description>
+      <display-name>LoginServlet</display-name>
+      <servlet-name>LoginServlet</servlet-name>
+      <servlet-class>org.example.CookiesLoginAndLogout.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>LoginServlet</servlet-name>
+      <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+      <description></description>
+      <display-name>ProfileServlet</display-name>
+      <servlet-name>ProfileServlet</servlet-name>
+      <servlet-class>org.example.CookiesLoginAndLogout.ProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>ProfileServlet</servlet-name>
+      <url-pattern>/ProfileServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+      <description></description>
+      <display-name>LogoutServlet</display-name>
+      <servlet-name>LogoutServlet</servlet-name>
+      <servlet-class>org.example.CookiesLoginAndLogout.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>LogoutServlet</servlet-name>
+      <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+  <servlet>
+    <servlet-name>hs1</servlet-name>
+    <servlet-class>org.example.HiddenFormField.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>hs1</servlet-name>
+    <url-pattern>/hiddenFormServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>hs2</servlet-name>
+    <servlet-class>org.example.HiddenFormField.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>hs2</servlet-name>
+    <url-pattern>/hiddenFormServlet2</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>us1</servlet-name>
+    <servlet-class>org.example.URLRewriting.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>us1</servlet-name>
+    <url-pattern>/urlRewriteServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>us2</servlet-name>
+    <servlet-class>org.example.URLRewriting.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>us2</servlet-name>
+    <url-pattern>/urlRewriteServlet2</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>https1</servlet-name>
+    <servlet-class>org.example.HttpSession.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>https1</servlet-name>
+    <url-pattern>/HttpSessionsServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>https2</servlet-name>
+    <servlet-class>org.example.HttpSession.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>https2</servlet-name>
+    <url-pattern>/HttpSessionsServlet2</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+  <servlet>
+    <description></description>
+    <display-name>HTTPLoginServlet</display-name>
+    <servlet-name>HTTPLoginServlet</servlet-name>
+    <servlet-class>org.example.HTTPSessionLoginAndLogout.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HTTPLoginServlet</servlet-name>
+    <url-pattern>/HTTPLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>HTTPProfileServlet</display-name>
+    <servlet-name>HTTPProfileServlet</servlet-name>
+    <servlet-class>org.example.HTTPSessionLoginAndLogout.ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HTTPProfileServlet</servlet-name>
+    <url-pattern>/HTTPProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>HTTPLogoutServlet</display-name>
+    <servlet-name>HTTPLogoutServlet</servlet-name>
+    <servlet-class>org.example.HTTPSessionLoginAndLogout.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HTTPLogoutServlet</servlet-name>
+    <url-pattern>/HTTPLogoutServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
+
